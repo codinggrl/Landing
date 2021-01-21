@@ -16,6 +16,7 @@ body {
   color: #fff;
   line-height: 1.6;
 }
+
 img {
   width: 100%;
 }
@@ -25,7 +26,7 @@ a {
   color: #ccc;
 }
 
-/* SEction */
+/* Section */
 .section {
   padding: 2rem;
 }
@@ -35,6 +36,11 @@ a {
 }
 .section h3 {
   font-size: 2rem;
+}
+
+section#entertainment {
+  background: url(../img/section-bg.jpg) no-repeat bottom/cover;
+  padding: 10rem 0;
 }
 
 /* Showcase */
@@ -108,6 +114,10 @@ a {
 }
 .text-light {
   color: var(--light-color);
+}
+.bg-light {
+  background: var(--light-color);
+  color: #333;
 }
 
 /* Navigation */
